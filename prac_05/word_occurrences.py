@@ -14,7 +14,6 @@ for word in words:
     else:
         word_to_count[word] = 1
 
-
 words = list(word_to_count.keys())
 words.sort()
 
