@@ -30,7 +30,7 @@ def get_name(email):
 def check_user_name(user_name):
     """checks username"""
     username_check = input(f"is this your name {user_name} (Y/N) ").upper()
-    if username_check == "N":
+    if username_check[0] == "N":
         user_name = input("name: ")
     return user_name
 
